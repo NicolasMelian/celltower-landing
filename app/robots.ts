@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://celltowerlocator.app/sitemap.xml",
+    sitemap: "https://celltowerlocatorapp.com/sitemap.xml",
   };
 }

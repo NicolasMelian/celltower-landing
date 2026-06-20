@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://celltowerlocator.app"),
+  metadataBase: new URL("https://celltowerlocatorapp.com"),
   title: "Cell Tower Locator | Find 5G, 4G & LTE Towers Near You",
   description:
     "Find cell towers near you with Cell Tower Locator. Interactive map showing 5G, 4G LTE, 3G tower locations. Built-in speed test, signal strength analysis, and carrier detection. Free on iOS.",
@@ -26,18 +26,18 @@ export const metadata: Metadata = {
     google: "",
   },
   alternates: {
-    canonical: "https://celltowerlocator.app",
+    canonical: "https://celltowerlocatorapp.com",
   },
   openGraph: {
     title: "Cell Tower Locator | Find 5G, 4G & LTE Towers Near You",
     description:
       "Find cell towers near you on an interactive map. 5G, 4G LTE, 3G tower locations, built-in speed test, and signal analysis.",
-    url: "https://celltowerlocator.app",
+    url: "https://celltowerlocatorapp.com",
     siteName: "Cell Tower Locator",
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/app-icon.jpeg",
         width: 1200,
         height: 630,
         alt: "Cell Tower Locator App",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Cell Tower Locator | Find 5G, 4G & LTE Towers Near You",
     description:
       "Find cell towers near you on an interactive map. 5G, 4G LTE, 3G tower locations, built-in speed test, and signal analysis.",
-    images: ["/og-image.png"],
+    images: ["/app-icon.jpeg"],
   },
   robots: {
     index: true,
